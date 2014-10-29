@@ -1,0 +1,1 @@
+Nuggets Miner is an open source project, distributed under a MIT license.

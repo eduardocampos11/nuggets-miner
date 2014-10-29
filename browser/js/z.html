@@ -1,0 +1,64 @@
+<!DOCTYPE HTML><html>	<head>		<link rel="stylesheet" type="text/css" href="C:\Users\online\workspace\NuggetsMiner\browser\style\prettify.css" /><link rel="stylesheet" type="text/css" href="C:\Users\online\workspace\NuggetsMiner\browser\style\style.css" />		<script type="text/javascript" src="C:\Users\online\workspace\NuggetsMiner\browser\js\jquery-1.7.js"></script><script type="text/javascript" src="C:\Users\online\workspace\NuggetsMiner\browser\js\utils.js"></script><script src="C:\Users\online\workspace\NuggetsMiner\browser\js\run_prettify.js"></script>	</head>	<body onload="processHTML()"> 	<div class="title">JTabbedPane: show task progress in a tab</div>	<div class="tags">Tags: <a href="http://stackoverflow.com/tags/jtabbedpane/info">jtabbedpane</a>, <a href="http://stackoverflow.com/tags/jprogressbar/info">jprogressbar</a>, <a href="http://stackoverflow.com/tags/java/info">java</a>, <a href="http://stackoverflow.com/tags/swing/info">swing</a></div>		<div class="mainDiv"><div class="entryContainer"><table>		<tr>		<td class="question">			<div>				<div class="corpusSideElement">					Q				</div>				<div class="scoreElement">					Score</br>2.0				</div>			</div>		</td>		<td>			<div class="corpus">				<p>I have a simple Swing Java application that performs searches, and the results are shown in a new tab. While the search is running, I want to show a progress icon or animation in the title of the tab. I tried adding a gif icon, but it doesn't animate. Is there a reason why this isn't working?</p>
+			</div>			<div><div class="author">Paco (Reputation: 88.0)</div><div class="date">07-04-2012 14:35:24<div></div>		</td>	</tr></table></div><code class="prettyprint"></code><div class="entryContainer"><table>	<tr>		<td class="answer">			<div>				<div class="corpusSideElement">					A				</div>				<div class="scoreElement">					Score</br>7.0				</div>			</div>		</td>		<td width="100%">			<div class="corpus">				<p><img src="http://i.stack.imgur.com/y3LLH.png" alt="Animated image as tab icon"></p>
+
+
+			</div>			<div><div class="author">Andrew Thompson (Reputation: 87812.0)</div><div class="date">07-04-2012 15:20:57<div></div>		</td>	</tr></table></div><pre><code class="prettyprint">import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.awt.image.*;
+
+public class ImageOnTab {
+
+    ImageOnTab() {
+
+        final BufferedImage image = new BufferedImage(
+            32,32,BufferedImage.TYPE_INT_RGB);
+        final JTabbedPane pane = new JTabbedPane();
+        ImageIcon icon = new ImageIcon(image);
+        pane.addTab( &quot;Progress&quot;, icon, new JTree() );
+
+        ActionListener listener = new ActionListener() {
+
+            int x = 0;
+            int step = 1;
+
+            public void actionPerformed(ActionEvent ae) {
+                Graphics g = image.createGraphics();
+                x+=step;
+                if (step&amp;gt;0) {
+                    if (x&amp;gt;32) {
+                        step=-step;
+                    }
+                } else if (x&amp;lt;0) {
+                    step=-step;
+                }
+
+                g.setColor(Color.ORANGE);
+                g.fillRect(0,0,32,32);
+
+                g.setColor(Color.RED);
+                g.fillRect(0,0,x,32);
+
+                g.dispose();
+
+                pane.repaint();
+            }
+        };
+
+        Timer timer = new Timer(100,listener);
+        timer.start();
+
+        JOptionPane.showMessageDialog(null, pane);
+    }
+
+    public static void main(String[] args) throws Exception {
+        //Create the GUI on the event dispatching thread
+        SwingUtilities.invokeLater(new Runnable(){
+            @Override
+            public void run() {
+                new ImageOnTab();
+            }
+        });
+    }
+}
+</code></pre></div>	</body></html>

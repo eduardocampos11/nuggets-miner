@@ -1,0 +1,7 @@
+public class NoName {
+System.out.println(Math.cos(50));
+System.out.println(Math.cos(new Double(50)));
+System.out.println(Math.cos(Math.toRadians(50)));
+System.out.println(Math.cos(Math.toRadians(new Double(50))));
+
+}

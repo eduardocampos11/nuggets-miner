@@ -1,0 +1,1447 @@
+# 29/10/14 10h14min39s BRST
+# Eclipse Compiler for Java(TM) 0.A76_R36x, 3.6.2, Copyright IBM Corp 2000, 2010. All rights reserved.
+----------
+1. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\Activator.java (at line 3)
+	import java.sql.SQLException;
+	       ^^^^^^^^^^^^^^^^^^^^^
+The import java.sql.SQLException is never used
+----------
+2. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\Activator.java (at line 8)
+	import org.eclipse.core.resources.ResourcesPlugin;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.eclipse.core.resources.ResourcesPlugin is never used
+----------
+3. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\Activator.java (at line 34)
+	import br.com.inf.nuggets.miner.sqlite.DatabaseManager;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import br.com.inf.nuggets.miner.sqlite.DatabaseManager is never used
+----------
+4. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\Activator.java (at line 70)
+	final HashSet<IEditorPart> editors = new HashSet();
+	                                     ^^^^^^^^^^^^^
+Type safety: The expression of type HashSet needs unchecked conversion to conform to HashSet<IEditorPart>
+----------
+5. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\Activator.java (at line 70)
+	final HashSet<IEditorPart> editors = new HashSet();
+	                                         ^^^^^^^
+HashSet is a raw type. References to generic type HashSet<E> should be parameterized
+----------
+6. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\Activator.java (at line 76)
+	List<IEditorPart> openedEditors = new ArrayList();
+	                                  ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<IEditorPart>
+----------
+7. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\Activator.java (at line 76)
+	List<IEditorPart> openedEditors = new ArrayList();
+	                                      ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+8. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\Activator.java (at line 87)
+	List<IEditorPart> toRemove = new ArrayList();
+	                             ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<IEditorPart>
+----------
+9. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\Activator.java (at line 87)
+	List<IEditorPart> toRemove = new ArrayList();
+	                                 ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+----------
+10. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerAnnotation.java (at line 27)
+	this.fields = new HashMap();
+	              ^^^^^^^^^^^^^
+Type safety: The expression of type HashMap needs unchecked conversion to conform to HashMap<String,Object>
+----------
+11. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerAnnotation.java (at line 27)
+	this.fields = new HashMap();
+	                  ^^^^^^^
+HashMap is a raw type. References to generic type HashMap<K,V> should be parameterized
+----------
+----------
+12. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerAnnotationManager.java (at line 63)
+	Map<String, List<ITypedRegion>> partitions = docObserver.getCachedPartitions(document);
+	                                ^^^^^^^^^^
+The local variable partitions is never read
+----------
+13. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerAnnotationManager.java (at line 65)
+	int newOffset = -1;
+	    ^^^^^^^^^
+The local variable newOffset is never read
+----------
+----------
+14. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerAnnotationParser.java (at line 22)
+	List<String> tags = new ArrayList();
+	                    ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<String>
+----------
+15. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerAnnotationParser.java (at line 22)
+	List<String> tags = new ArrayList();
+	                        ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+16. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerAnnotationParser.java (at line 23)
+	List<Integer> startIndex = new ArrayList();
+	                           ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<Integer>
+----------
+17. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerAnnotationParser.java (at line 23)
+	List<Integer> startIndex = new ArrayList();
+	                               ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+18. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerAnnotationParser.java (at line 24)
+	List<Integer> endIndex = new ArrayList();
+	                         ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<Integer>
+----------
+19. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerAnnotationParser.java (at line 24)
+	List<Integer> endIndex = new ArrayList();
+	                             ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+20. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerAnnotationParser.java (at line 94)
+	return new ArrayList();
+	       ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<NuggetsMinerAnnotation>
+----------
+21. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerAnnotationParser.java (at line 94)
+	return new ArrayList();
+	           ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+22. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerAnnotationParser.java (at line 101)
+	List<NuggetsMinerAnnotation> annotations = new ArrayList();
+	                                           ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<NuggetsMinerAnnotation>
+----------
+23. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerAnnotationParser.java (at line 101)
+	List<NuggetsMinerAnnotation> annotations = new ArrayList();
+	                                               ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+24. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerAnnotationParser.java (at line 124)
+	return new ArrayList();
+	       ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<NuggetsMinerAnnotation>
+----------
+25. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerAnnotationParser.java (at line 124)
+	return new ArrayList();
+	           ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+----------
+26. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerPartitionScanner.java (at line 4)
+	import br.com.inf.nuggets.miner.observer.GlobalDocumentObserver;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import br.com.inf.nuggets.miner.observer.GlobalDocumentObserver is never used
+----------
+27. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerPartitionScanner.java (at line 5)
+	import br.com.inf.nuggets.miner.preferences.NuggetsMinerPreferencesConstant;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import br.com.inf.nuggets.miner.preferences.NuggetsMinerPreferencesConstant is never used
+----------
+28. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerPartitionScanner.java (at line 10)
+	import java.util.Arrays;
+	       ^^^^^^^^^^^^^^^^
+The import java.util.Arrays is never used
+----------
+29. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerPartitionScanner.java (at line 14)
+	import java.util.Set;
+	       ^^^^^^^^^^^^^
+The import java.util.Set is never used
+----------
+30. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerPartitionScanner.java (at line 19)
+	import org.codehaus.jackson.type.TypeReference;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.codehaus.jackson.type.TypeReference is never used
+----------
+31. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerPartitionScanner.java (at line 24)
+	import org.eclipse.jface.text.rules.IToken;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.eclipse.jface.text.rules.IToken is never used
+----------
+32. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerPartitionScanner.java (at line 25)
+	import org.eclipse.jface.text.rules.MultiLineRule;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.eclipse.jface.text.rules.MultiLineRule is never used
+----------
+33. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerPartitionScanner.java (at line 27)
+	import org.eclipse.jface.text.rules.Token;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.eclipse.jface.text.rules.Token is never used
+----------
+34. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerPartitionScanner.java (at line 28)
+	import org.eclipse.ui.IEditorInput;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.eclipse.ui.IEditorInput is never used
+----------
+35. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerPartitionScanner.java (at line 42)
+	partitionsTypeList = new HashMap();
+	                     ^^^^^^^^^^^^^
+Type safety: The expression of type HashMap needs unchecked conversion to conform to Map<String,String[]>
+----------
+36. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerPartitionScanner.java (at line 42)
+	partitionsTypeList = new HashMap();
+	                         ^^^^^^^
+HashMap is a raw type. References to generic type HashMap<K,V> should be parameterized
+----------
+37. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerPartitionScanner.java (at line 43)
+	extensionsMap = new HashMap();
+	                ^^^^^^^^^^^^^
+Type safety: The expression of type HashMap needs unchecked conversion to conform to Map<String,String[]>
+----------
+38. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerPartitionScanner.java (at line 43)
+	extensionsMap = new HashMap();
+	                    ^^^^^^^
+HashMap is a raw type. References to generic type HashMap<K,V> should be parameterized
+----------
+39. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerPartitionScanner.java (at line 44)
+	extensionsTypeMap = new HashMap();
+	                    ^^^^^^^^^^^^^
+Type safety: The expression of type HashMap needs unchecked conversion to conform to Map<String,String>
+----------
+40. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerPartitionScanner.java (at line 44)
+	extensionsTypeMap = new HashMap();
+	                        ^^^^^^^
+HashMap is a raw type. References to generic type HashMap<K,V> should be parameterized
+----------
+41. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerPartitionScanner.java (at line 45)
+	Map<List<String>, String> delimitersToTypeMap = new HashMap();
+	                          ^^^^^^^^^^^^^^^^^^^
+The local variable delimitersToTypeMap is never read
+----------
+42. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerPartitionScanner.java (at line 45)
+	Map<List<String>, String> delimitersToTypeMap = new HashMap();
+	                                                ^^^^^^^^^^^^^
+Type safety: The expression of type HashMap needs unchecked conversion to conform to Map<List<String>,String>
+----------
+43. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerPartitionScanner.java (at line 45)
+	Map<List<String>, String> delimitersToTypeMap = new HashMap();
+	                                                    ^^^^^^^
+HashMap is a raw type. References to generic type HashMap<K,V> should be parameterized
+----------
+44. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerPartitionScanner.java (at line 47)
+	List<IPredicateRule> rules = new ArrayList();
+	                     ^^^^^
+The local variable rules is never read
+----------
+45. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerPartitionScanner.java (at line 47)
+	List<IPredicateRule> rules = new ArrayList();
+	                             ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<IPredicateRule>
+----------
+46. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerPartitionScanner.java (at line 47)
+	List<IPredicateRule> rules = new ArrayList();
+	                                 ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+47. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\NuggetsMinerPartitionScanner.java (at line 48)
+	IPreferenceStore store = Activator.getDefault().getPreferenceStore();
+	                 ^^^^^
+The local variable store is never read
+----------
+----------
+48. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\cache\AnnotationCache.java (at line 8)
+	import java.io.PrintStream;
+	       ^^^^^^^^^^^^^^^^^^^
+The import java.io.PrintStream is never used
+----------
+49. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\cache\AnnotationCache.java (at line 25)
+	private static final String dbName = ".seahawk.cache";
+	                            ^^^^^^
+The field AnnotationCache.dbName is never read locally
+----------
+50. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\cache\AnnotationCache.java (at line 26)
+	private static final String tableName = "cache";
+	                            ^^^^^^^^^
+The field AnnotationCache.tableName is never read locally
+----------
+51. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\cache\AnnotationCache.java (at line 27)
+	private static final String newAnnotations = "newAnnotations";
+	                            ^^^^^^^^^^^^^^
+The field AnnotationCache.newAnnotations is never read locally
+----------
+52. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\cache\AnnotationCache.java (at line 68)
+	return new ArrayList();
+	       ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<NuggetsMinerAnnotation>
+----------
+53. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\cache\AnnotationCache.java (at line 68)
+	return new ArrayList();
+	           ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+54. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\cache\AnnotationCache.java (at line 224)
+	List<NuggetsMinerAnnotation> annotations = new ArrayList();
+	                                           ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<NuggetsMinerAnnotation>
+----------
+55. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\annotations\cache\AnnotationCache.java (at line 224)
+	List<NuggetsMinerAnnotation> annotations = new ArrayList();
+	                                               ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+----------
+56. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\comparator\SeahawkDbEntryComparator.java (at line 6)
+	import org.eclipse.ui.internal.dialogs.ViewComparator;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Discouraged access: The type ViewComparator is not accessible due to restriction on classpath entry C:\Users\online\Desktop\eclipse-rcp-helios-SR2-win32-x86_64\eclipse\plugins\org.eclipse.ui.workbench_3.6.2.M20110210-1200.jar
+----------
+57. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\comparator\SeahawkDbEntryComparator.java (at line 7)
+	import org.eclipse.ui.internal.registry.ViewRegistry;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Discouraged access: The type ViewRegistry is not accessible due to restriction on classpath entry C:\Users\online\Desktop\eclipse-rcp-helios-SR2-win32-x86_64\eclipse\plugins\org.eclipse.ui.workbench_3.6.2.M20110210-1200.jar
+----------
+58. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\comparator\SeahawkDbEntryComparator.java (at line 10)
+	extends ViewComparator
+	        ^^^^^^^^^^^^^^
+Discouraged access: The type ViewComparator is not accessible due to restriction on classpath entry C:\Users\online\Desktop\eclipse-rcp-helios-SR2-win32-x86_64\eclipse\plugins\org.eclipse.ui.workbench_3.6.2.M20110210-1200.jar
+----------
+59. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\comparator\SeahawkDbEntryComparator.java (at line 12)
+	private static final int DESCENDING = -1;
+	                         ^^^^^^^^^^
+The field SeahawkDbEntryComparator.DESCENDING is never read locally
+----------
+60. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\comparator\SeahawkDbEntryComparator.java (at line 13)
+	private static final int ASCENDING = 1;
+	                         ^^^^^^^^^
+The field SeahawkDbEntryComparator.ASCENDING is never read locally
+----------
+61. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\comparator\SeahawkDbEntryComparator.java (at line 16)
+	public SeahawkDbEntryComparator(ViewRegistry reg)
+	                                ^^^^^^^^^^^^
+Discouraged access: The type ViewRegistry is not accessible due to restriction on classpath entry C:\Users\online\Desktop\eclipse-rcp-helios-SR2-win32-x86_64\eclipse\plugins\org.eclipse.ui.workbench_3.6.2.M20110210-1200.jar
+----------
+62. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\comparator\SeahawkDbEntryComparator.java (at line 18)
+	super(reg);
+	^^^^^^^^^^^
+Discouraged access: The constructor ViewComparator(ViewRegistry) is not accessible due to restriction on classpath entry C:\Users\online\Desktop\eclipse-rcp-helios-SR2-win32-x86_64\eclipse\plugins\org.eclipse.ui.workbench_3.6.2.M20110210-1200.jar
+----------
+----------
+63. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\dnd\DocumentDropListener.java (at line 19)
+	import org.eclipse.swt.widgets.Display;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.eclipse.swt.widgets.Display is never used
+----------
+64. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\dnd\DocumentDropListener.java (at line 21)
+	import org.eclipse.ui.IEditorInput;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.eclipse.ui.IEditorInput is never used
+----------
+----------
+65. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\dnd\DocumentTransfer.java (at line 28)
+	List<DocumentBase> docs = new ArrayList();
+	                          ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<DocumentBase>
+----------
+66. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\dnd\DocumentTransfer.java (at line 28)
+	List<DocumentBase> docs = new ArrayList();
+	                              ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+67. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\dnd\DocumentTransfer.java (at line 64)
+	List<String> docs = new ArrayList();
+	                    ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<String>
+----------
+68. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\dnd\DocumentTransfer.java (at line 64)
+	List<String> docs = new ArrayList();
+	                        ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+----------
+69. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 14)
+	import java.util.Map.Entry;
+	       ^^^^^^^^^^^^^^^^^^^
+The import java.util.Map.Entry is never used
+----------
+70. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 19)
+	import org.eclipse.core.resources.IResource;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.eclipse.core.resources.IResource is never used
+----------
+71. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 20)
+	import org.eclipse.core.runtime.IPath;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.eclipse.core.runtime.IPath is never used
+----------
+72. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 41)
+	this.filters = new ArrayList();
+	               ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<IFilter>
+----------
+73. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 41)
+	this.filters = new ArrayList();
+	                   ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+74. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 54)
+	Set<String> keywords = new HashSet();
+	                       ^^^^^^^^^^^^^
+Type safety: The expression of type HashSet needs unchecked conversion to conform to Set<String>
+----------
+75. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 54)
+	Set<String> keywords = new HashSet();
+	                           ^^^^^^^
+HashSet is a raw type. References to generic type HashSet<E> should be parameterized
+----------
+76. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 55)
+	Stack<IJavaElement> toVisit = new Stack();
+	                              ^^^^^^^^^^^
+Type safety: The expression of type Stack needs unchecked conversion to conform to Stack<IJavaElement>
+----------
+77. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 55)
+	Stack<IJavaElement> toVisit = new Stack();
+	                                  ^^^^^
+Stack is a raw type. References to generic type Stack<E> should be parameterized
+----------
+78. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 76)
+	return new ArrayList(keywords);
+	       ^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The constructor ArrayList(Collection) belongs to the raw type ArrayList. References to generic type ArrayList<E> should be parameterized
+----------
+79. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 76)
+	return new ArrayList(keywords);
+	       ^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<String>
+----------
+80. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 76)
+	return new ArrayList(keywords);
+	           ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+81. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 83)
+	return new ArrayList();
+	       ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<String>
+----------
+82. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 83)
+	return new ArrayList();
+	           ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+83. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 87)
+	Set<String> keywords = new HashSet();
+	                       ^^^^^^^^^^^^^
+Type safety: The expression of type HashSet needs unchecked conversion to conform to Set<String>
+----------
+84. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 87)
+	Set<String> keywords = new HashSet();
+	                           ^^^^^^^
+HashSet is a raw type. References to generic type HashSet<E> should be parameterized
+----------
+85. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 90)
+	return new ArrayList();
+	       ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<String>
+----------
+86. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 90)
+	return new ArrayList();
+	           ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+87. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 99)
+	return new ArrayList(keywords);
+	       ^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The constructor ArrayList(Collection) belongs to the raw type ArrayList. References to generic type ArrayList<E> should be parameterized
+----------
+88. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 99)
+	return new ArrayList(keywords);
+	       ^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<String>
+----------
+89. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 99)
+	return new ArrayList(keywords);
+	           ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+90. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 105)
+	Set<String> keywords = new HashSet();
+	                       ^^^^^^^^^^^^^
+Type safety: The expression of type HashSet needs unchecked conversion to conform to Set<String>
+----------
+91. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 105)
+	Set<String> keywords = new HashSet();
+	                           ^^^^^^^
+HashSet is a raw type. References to generic type HashSet<E> should be parameterized
+----------
+92. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 114)
+	return new ArrayList(keywords);
+	       ^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The constructor ArrayList(Collection) belongs to the raw type ArrayList. References to generic type ArrayList<E> should be parameterized
+----------
+93. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 114)
+	return new ArrayList(keywords);
+	       ^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<String>
+----------
+94. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 114)
+	return new ArrayList(keywords);
+	           ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+95. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 150)
+	List<String> filteredTokens = new ArrayList();
+	                              ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<String>
+----------
+96. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 150)
+	List<String> filteredTokens = new ArrayList();
+	                                  ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+97. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 156)
+	List<String> top = new ArrayList();
+	                   ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<String>
+----------
+98. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 156)
+	List<String> top = new ArrayList();
+	                       ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+99. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 157)
+	Object itf = new TreeMap(new Comparator<Integer>()
+    {
+      public int compare(Integer i, Integer j)
+      {
+        return j.compareTo(i);
+      }
+    });
+	             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The constructor TreeMap(Comparator) belongs to the raw type TreeMap. References to generic type TreeMap<K,V> should be parameterized
+----------
+100. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 157)
+	Object itf = new TreeMap(new Comparator<Integer>()
+	                 ^^^^^^^
+TreeMap is a raw type. References to generic type TreeMap<K,V> should be parameterized
+----------
+101. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 164)
+	Map<String, Integer> tf = new HashMap();
+	                          ^^^^^^^^^^^^^
+Type safety: The expression of type HashMap needs unchecked conversion to conform to Map<String,Integer>
+----------
+102. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 164)
+	Map<String, Integer> tf = new HashMap();
+	                              ^^^^^^^
+HashMap is a raw type. References to generic type HashMap<K,V> should be parameterized
+----------
+103. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 174)
+	if (!((Map)itf).containsKey(e.getValue())) {
+	       ^^^
+Map is a raw type. References to generic type Map<K,V> should be parameterized
+----------
+104. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 175)
+	((Map)itf).put((Integer)e.getValue(), new ArrayList());
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The method put(Object, Object) belongs to the raw type Map. References to generic type Map<K,V> should be parameterized
+----------
+105. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 175)
+	((Map)itf).put((Integer)e.getValue(), new ArrayList());
+	  ^^^
+Map is a raw type. References to generic type Map<K,V> should be parameterized
+----------
+106. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 175)
+	((Map)itf).put((Integer)e.getValue(), new ArrayList());
+	                                          ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+107. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 177)
+	((List)((Map)itf).get(e.getValue())).add((String)e.getKey());
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The method add(Object) belongs to the raw type List. References to generic type List<E> should be parameterized
+----------
+108. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 177)
+	((List)((Map)itf).get(e.getValue())).add((String)e.getKey());
+	  ^^^^
+List is a raw type. References to generic type List<E> should be parameterized
+----------
+109. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 177)
+	((List)((Map)itf).get(e.getValue())).add((String)e.getKey());
+	         ^^^
+Map is a raw type. References to generic type Map<K,V> should be parameterized
+----------
+110. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 179)
+	List<Integer> ids = new ArrayList(((Map)itf).keySet());
+	                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The constructor ArrayList(Collection) belongs to the raw type ArrayList. References to generic type ArrayList<E> should be parameterized
+----------
+111. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 179)
+	List<Integer> ids = new ArrayList(((Map)itf).keySet());
+	                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<Integer>
+----------
+112. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 179)
+	List<Integer> ids = new ArrayList(((Map)itf).keySet());
+	                        ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+113. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 179)
+	List<Integer> ids = new ArrayList(((Map)itf).keySet());
+	                                    ^^^
+Map is a raw type. References to generic type Map<K,V> should be parameterized
+----------
+114. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 182)
+	List<String> vals = (List)((Map)itf).get(i);
+	                    ^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The expression of type List needs unchecked conversion to conform to List<String>
+----------
+115. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 182)
+	List<String> vals = (List)((Map)itf).get(i);
+	                     ^^^^
+List is a raw type. References to generic type List<E> should be parameterized
+----------
+116. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 182)
+	List<String> vals = (List)((Map)itf).get(i);
+	                            ^^^
+Map is a raw type. References to generic type Map<K,V> should be parameterized
+----------
+117. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 193)
+	List<String> tokens = new ArrayList();
+	                      ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<String>
+----------
+118. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\CodeKeywordsExtractor.java (at line 193)
+	List<String> tokens = new ArrayList();
+	                          ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+----------
+119. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\KeywordsExtractionJob.java (at line 18)
+	import org.eclipse.ui.IWorkbench;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.eclipse.ui.IWorkbench is never used
+----------
+120. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\KeywordsExtractionJob.java (at line 19)
+	import org.eclipse.ui.IWorkbenchPage;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.eclipse.ui.IWorkbenchPage is never used
+----------
+121. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\KeywordsExtractionJob.java (at line 20)
+	import org.eclipse.ui.IWorkbenchWindow;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.eclipse.ui.IWorkbenchWindow is never used
+----------
+122. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\KeywordsExtractionJob.java (at line 55)
+	performQuery(new ArrayList(keywords));
+	             ^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The constructor ArrayList(Collection) belongs to the raw type ArrayList. References to generic type ArrayList<E> should be parameterized
+----------
+123. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\KeywordsExtractionJob.java (at line 55)
+	performQuery(new ArrayList(keywords));
+	             ^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<String>
+----------
+124. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\KeywordsExtractionJob.java (at line 55)
+	performQuery(new ArrayList(keywords));
+	                 ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+125. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\KeywordsExtractionJob.java (at line 75)
+	Set<String> keywords = new HashSet();
+	                       ^^^^^^^^^^^^^
+Type safety: The expression of type HashSet needs unchecked conversion to conform to Set<String>
+----------
+126. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\KeywordsExtractionJob.java (at line 75)
+	Set<String> keywords = new HashSet();
+	                           ^^^^^^^
+HashSet is a raw type. References to generic type HashSet<E> should be parameterized
+----------
+127. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\KeywordsExtractionJob.java (at line 86)
+	return new ArrayList(keywords);
+	       ^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The constructor ArrayList(Collection) belongs to the raw type ArrayList. References to generic type ArrayList<E> should be parameterized
+----------
+128. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\KeywordsExtractionJob.java (at line 86)
+	return new ArrayList(keywords);
+	       ^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<String>
+----------
+129. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\KeywordsExtractionJob.java (at line 86)
+	return new ArrayList(keywords);
+	           ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+----------
+130. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\filter\CamelCaseFilter.java (at line 18)
+	List<String> filtered = new ArrayList();
+	                        ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<String>
+----------
+131. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\filter\CamelCaseFilter.java (at line 18)
+	List<String> filtered = new ArrayList();
+	                            ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+----------
+132. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\filter\DigitsFilter.java (at line 23)
+	List<String> filtered = new ArrayList();
+	                        ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<String>
+----------
+133. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\filter\DigitsFilter.java (at line 23)
+	List<String> filtered = new ArrayList();
+	                            ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+----------
+134. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\filter\LowerCaseFilter.java (at line 11)
+	List<String> filtered = new ArrayList();
+	                        ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<String>
+----------
+135. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\filter\LowerCaseFilter.java (at line 11)
+	List<String> filtered = new ArrayList();
+	                            ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+----------
+136. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\filter\RemoveOnLengthFilter.java (at line 18)
+	List<String> filtered = new ArrayList();
+	                        ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<String>
+----------
+137. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\filter\RemoveOnLengthFilter.java (at line 18)
+	List<String> filtered = new ArrayList();
+	                            ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+----------
+138. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\filter\StopWordFilter.java (at line 25)
+	this.stopWords = new HashSet();
+	                 ^^^^^^^^^^^^^
+Type safety: The expression of type HashSet needs unchecked conversion to conform to Set<String>
+----------
+139. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\filter\StopWordFilter.java (at line 25)
+	this.stopWords = new HashSet();
+	                     ^^^^^^^
+HashSet is a raw type. References to generic type HashSet<E> should be parameterized
+----------
+140. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\filter\StopWordFilter.java (at line 44)
+	this.stopWords = new HashSet();
+	                 ^^^^^^^^^^^^^
+Type safety: The expression of type HashSet needs unchecked conversion to conform to Set<String>
+----------
+141. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\filter\StopWordFilter.java (at line 44)
+	this.stopWords = new HashSet();
+	                     ^^^^^^^
+HashSet is a raw type. References to generic type HashSet<E> should be parameterized
+----------
+142. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\filter\StopWordFilter.java (at line 60)
+	List<String> filtered = new ArrayList();
+	                        ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<String>
+----------
+143. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\filter\StopWordFilter.java (at line 60)
+	List<String> filtered = new ArrayList();
+	                            ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+----------
+144. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\filter\SymbolsFilter.java (at line 23)
+	List<String> filtered = new ArrayList();
+	                        ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<String>
+----------
+145. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\filter\SymbolsFilter.java (at line 23)
+	List<String> filtered = new ArrayList();
+	                            ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+----------
+146. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\filter\TrimFilter.java (at line 11)
+	List<String> filtered = new ArrayList();
+	                        ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<String>
+----------
+147. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\filter\TrimFilter.java (at line 11)
+	List<String> filtered = new ArrayList();
+	                            ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+----------
+148. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\tokenizer\StringDelimiterTokenizer.java (at line 20)
+	List<String> tokens = new ArrayList();
+	                      ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<String>
+----------
+149. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\tokenizer\StringDelimiterTokenizer.java (at line 20)
+	List<String> tokens = new ArrayList();
+	                          ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+----------
+150. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\tokenizer\WhiteSpaceTokenizer.java (at line 11)
+	List<String> tokens = new ArrayList();
+	                      ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<String>
+----------
+151. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\keyword\tokenizer\WhiteSpaceTokenizer.java (at line 11)
+	List<String> tokens = new ArrayList();
+	                          ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+----------
+152. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\menu\CompilationUnitEditorContextMenu.java (at line 18)
+	import org.eclipse.jface.viewers.ISelectionProvider;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.eclipse.jface.viewers.ISelectionProvider is never used
+----------
+153. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\menu\CompilationUnitEditorContextMenu.java (at line 21)
+	import org.eclipse.ui.IWorkbenchPartSite;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.eclipse.ui.IWorkbenchPartSite is never used
+----------
+----------
+154. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\menu\SearchViewShortcutHandler.java (at line 6)
+	import br.com.inf.nuggets.miner.observer.GlobalEditorOnTopObserver;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import br.com.inf.nuggets.miner.observer.GlobalEditorOnTopObserver is never used
+----------
+155. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\menu\SearchViewShortcutHandler.java (at line 22)
+	import org.eclipse.jface.viewers.ISelectionProvider;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.eclipse.jface.viewers.ISelectionProvider is never used
+----------
+156. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\menu\SearchViewShortcutHandler.java (at line 25)
+	import org.eclipse.ui.IWorkbench;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.eclipse.ui.IWorkbench is never used
+----------
+157. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\menu\SearchViewShortcutHandler.java (at line 26)
+	import org.eclipse.ui.IWorkbenchPage;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.eclipse.ui.IWorkbenchPage is never used
+----------
+158. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\menu\SearchViewShortcutHandler.java (at line 27)
+	import org.eclipse.ui.IWorkbenchPartSite;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.eclipse.ui.IWorkbenchPartSite is never used
+----------
+159. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\menu\SearchViewShortcutHandler.java (at line 28)
+	import org.eclipse.ui.IWorkbenchWindow;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.eclipse.ui.IWorkbenchWindow is never used
+----------
+----------
+160. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\GlobalDocumentObserver.java (at line 43)
+	private final int delay = 1000;
+	                  ^^^^^
+The field GlobalDocumentObserver.DocumentChangedListener.delay is never read locally
+----------
+161. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\GlobalDocumentObserver.java (at line 68)
+	private final GlobalDocumentObserver observer;
+	                                     ^^^^^^^^
+The field GlobalDocumentObserver.DocumentChangedTimeoutTask.observer is never read locally
+----------
+162. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\GlobalDocumentObserver.java (at line 137)
+	this.documentListeners = new ArrayList();
+	                         ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<IDocumentChangedListener>
+----------
+163. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\GlobalDocumentObserver.java (at line 137)
+	this.documentListeners = new ArrayList();
+	                             ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+164. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\GlobalDocumentObserver.java (at line 138)
+	this.partitioningListeners = new ArrayList();
+	                             ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<IDocumentPartitioningChangedListener>
+----------
+165. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\GlobalDocumentObserver.java (at line 138)
+	this.partitioningListeners = new ArrayList();
+	                                 ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+166. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\GlobalDocumentObserver.java (at line 139)
+	this.saveListeners = new ArrayList();
+	                     ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<IDocumentSaveCommandListener>
+----------
+167. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\GlobalDocumentObserver.java (at line 139)
+	this.saveListeners = new ArrayList();
+	                         ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+168. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\GlobalDocumentObserver.java (at line 140)
+	this.partitioners = new ArrayList();
+	                    ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<DocumentPartitioner>
+----------
+169. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\GlobalDocumentObserver.java (at line 140)
+	this.partitioners = new ArrayList();
+	                        ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+170. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\GlobalDocumentObserver.java (at line 144)
+	this.documents = new HashMap();
+	                 ^^^^^^^^^^^^^
+Type safety: The expression of type HashMap needs unchecked conversion to conform to Map<IDocumentExtension3,ITextEditor>
+----------
+171. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\GlobalDocumentObserver.java (at line 144)
+	this.documents = new HashMap();
+	                     ^^^^^^^
+HashMap is a raw type. References to generic type HashMap<K,V> should be parameterized
+----------
+----------
+172. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\GlobalEditorOnTopObserver.java (at line 7)
+	import org.eclipse.ui.IPartService;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.eclipse.ui.IPartService is never used
+----------
+173. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\GlobalEditorOnTopObserver.java (at line 9)
+	import org.eclipse.ui.IWorkbench;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.eclipse.ui.IWorkbench is never used
+----------
+174. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\GlobalEditorOnTopObserver.java (at line 10)
+	import org.eclipse.ui.IWorkbenchPage;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.eclipse.ui.IWorkbenchPage is never used
+----------
+175. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\GlobalEditorOnTopObserver.java (at line 79)
+	this.listeners = new ArrayList();
+	                 ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<IEditorOnTopListener>
+----------
+176. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\GlobalEditorOnTopObserver.java (at line 79)
+	this.listeners = new ArrayList();
+	                     ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+----------
+177. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\IDocumentSaveCommandListener.java (at line 8)
+	import org.eclipse.ui.IWorkbenchPartSite;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.eclipse.ui.IWorkbenchPartSite is never used
+----------
+178. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\IDocumentSaveCommandListener.java (at line 19)
+	private final String saveCommandId = "org.eclipse.ui.file";
+	                     ^^^^^^^^^^^^^
+The field IDocumentSaveCommandListener.SaveCommandListener.saveCommandId is never read locally
+----------
+----------
+179. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\PartitioningCache.java (at line 7)
+	import java.util.Map.Entry;
+	       ^^^^^^^^^^^^^^^^^^^
+The import java.util.Map.Entry is never used
+----------
+180. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\PartitioningCache.java (at line 18)
+	this.cache = new HashMap();
+	             ^^^^^^^^^^^^^
+Type safety: The expression of type HashMap needs unchecked conversion to conform to HashMap<IDocument,HashMap<String,List<ITypedRegion>>>
+----------
+181. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\PartitioningCache.java (at line 18)
+	this.cache = new HashMap();
+	                 ^^^^^^^
+HashMap is a raw type. References to generic type HashMap<K,V> should be parameterized
+----------
+182. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\PartitioningCache.java (at line 28)
+	HashMap<String, List<ITypedRegion>> newPartitions = new HashMap();
+	                                                    ^^^^^^^^^^^^^
+Type safety: The expression of type HashMap needs unchecked conversion to conform to HashMap<String,List<ITypedRegion>>
+----------
+183. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\PartitioningCache.java (at line 28)
+	HashMap<String, List<ITypedRegion>> newPartitions = new HashMap();
+	                                                        ^^^^^^^
+HashMap is a raw type. References to generic type HashMap<K,V> should be parameterized
+----------
+184. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\PartitioningCache.java (at line 29)
+	HashMap<String, List<ITypedRegion>> currentPartitions = (HashMap)this.cache.get(document);
+	                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The expression of type HashMap needs unchecked conversion to conform to HashMap<String,List<ITypedRegion>>
+----------
+185. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\PartitioningCache.java (at line 29)
+	HashMap<String, List<ITypedRegion>> currentPartitions = (HashMap)this.cache.get(document);
+	                                                         ^^^^^^^
+HashMap is a raw type. References to generic type HashMap<K,V> should be parameterized
+----------
+186. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\PartitioningCache.java (at line 32)
+	List<ITypedRegion> toAdd = new ArrayList();
+	                           ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<ITypedRegion>
+----------
+187. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\PartitioningCache.java (at line 32)
+	List<ITypedRegion> toAdd = new ArrayList();
+	                               ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+188. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\PartitioningCache.java (at line 34)
+	if (!((List)currentPartitions.get(e.getKey())).contains(region)) {
+	       ^^^^
+List is a raw type. References to generic type List<E> should be parameterized
+----------
+189. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\PartitioningCache.java (at line 41)
+	updateCache(document, (String)e.getKey(), (List)e.getValue());
+	                                          ^^^^^^^^^^^^^^^^^^
+Type safety: The expression of type List needs unchecked conversion to conform to List<ITypedRegion>
+----------
+190. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\PartitioningCache.java (at line 41)
+	updateCache(document, (String)e.getKey(), (List)e.getValue());
+	                                           ^^^^
+List is a raw type. References to generic type List<E> should be parameterized
+----------
+191. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\PartitioningCache.java (at line 49)
+	HashMap<String, List<ITypedRegion>> current = (HashMap)this.cache.get(document);
+	                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The expression of type HashMap needs unchecked conversion to conform to HashMap<String,List<ITypedRegion>>
+----------
+192. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\PartitioningCache.java (at line 49)
+	HashMap<String, List<ITypedRegion>> current = (HashMap)this.cache.get(document);
+	                                               ^^^^^^^
+HashMap is a raw type. References to generic type HashMap<K,V> should be parameterized
+----------
+193. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\PartitioningCache.java (at line 62)
+	return new HashMap();
+	       ^^^^^^^^^^^^^
+Type safety: The expression of type HashMap needs unchecked conversion to conform to HashMap<String,List<ITypedRegion>>
+----------
+194. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\PartitioningCache.java (at line 62)
+	return new HashMap();
+	           ^^^^^^^
+HashMap is a raw type. References to generic type HashMap<K,V> should be parameterized
+----------
+195. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\PartitioningCache.java (at line 64)
+	return (HashMap)this.cache.get(document);
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The expression of type HashMap needs unchecked conversion to conform to HashMap<String,List<ITypedRegion>>
+----------
+196. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\observer\PartitioningCache.java (at line 64)
+	return (HashMap)this.cache.get(document);
+	        ^^^^^^^
+HashMap is a raw type. References to generic type HashMap<K,V> should be parameterized
+----------
+----------
+197. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\preferences\CellEditorSupport.java (at line 31)
+	return getValueForElement((T1) element);
+	                          ^^^^^^^^^^^^
+Type safety: Unchecked cast from Object to T1
+----------
+198. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\preferences\CellEditorSupport.java (at line 43)
+	setValueForElement((T1) element, (T2) value);
+	                   ^^^^^^^^^^^^
+Type safety: Unchecked cast from Object to T1
+----------
+199. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\preferences\CellEditorSupport.java (at line 43)
+	setValueForElement((T1) element, (T2) value);
+	                                 ^^^^^^^^^^
+Type safety: Unchecked cast from Object to T2
+----------
+----------
+200. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\preferences\DocumentDbPreferencePage.java (at line 12)
+	import org.eclipse.swt.widgets.Control;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.eclipse.swt.widgets.Control is never used
+----------
+201. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\preferences\DocumentDbPreferencePage.java (at line 13)
+	import org.eclipse.swt.widgets.Text;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.eclipse.swt.widgets.Text is never used
+----------
+----------
+202. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\preferences\NuggetsMinerPreferencePage.java (at line 15)
+	import org.codehaus.jackson.map.SerializationConfig.Feature;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.codehaus.jackson.map.SerializationConfig.Feature is never used
+----------
+203. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\preferences\NuggetsMinerPreferencePage.java (at line 18)
+	import org.codehaus.jackson.type.TypeReference;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.codehaus.jackson.type.TypeReference is never used
+----------
+204. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\preferences\NuggetsMinerPreferencePage.java (at line 35)
+	import org.eclipse.swt.widgets.TableColumn;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.eclipse.swt.widgets.TableColumn is never used
+----------
+205. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\preferences\NuggetsMinerPreferencePage.java (at line 215)
+	col.setEditingSupport(new CellEditorSupport(viewer)
+	                          ^^^^^^^^^^^^^^^^^
+CellEditorSupport is a raw type. References to generic type CellEditorSupport<T1,T2> should be parameterized
+----------
+206. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\preferences\NuggetsMinerPreferencePage.java (at line 217)
+	protected String getValueForElement(PreferenceModel element)
+	                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The method getValueForElement(PreferenceModel) from the type new CellEditorSupport(){} is never used locally
+----------
+207. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\preferences\NuggetsMinerPreferencePage.java (at line 222)
+	protected void setValueForElement(PreferenceModel element, String value)
+	               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The method setValueForElement(PreferenceModel, String) from the type new CellEditorSupport(){} is never used locally
+----------
+208. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\preferences\NuggetsMinerPreferencePage.java (at line 237)
+	col.setEditingSupport(new CellEditorSupport(viewer)
+	                          ^^^^^^^^^^^^^^^^^
+CellEditorSupport is a raw type. References to generic type CellEditorSupport<T1,T2> should be parameterized
+----------
+209. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\preferences\NuggetsMinerPreferencePage.java (at line 239)
+	protected String getValueForElement(PreferenceModel element)
+	                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The method getValueForElement(PreferenceModel) from the type new CellEditorSupport(){} is never used locally
+----------
+210. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\preferences\NuggetsMinerPreferencePage.java (at line 244)
+	protected void setValueForElement(PreferenceModel element, String value)
+	               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The method setValueForElement(PreferenceModel, String) from the type new CellEditorSupport(){} is never used locally
+----------
+211. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\preferences\NuggetsMinerPreferencePage.java (at line 259)
+	col.setEditingSupport(new CellEditorSupport(viewer)
+	                          ^^^^^^^^^^^^^^^^^
+CellEditorSupport is a raw type. References to generic type CellEditorSupport<T1,T2> should be parameterized
+----------
+212. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\preferences\NuggetsMinerPreferencePage.java (at line 261)
+	protected String getValueForElement(PreferenceModel element)
+	                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The method getValueForElement(PreferenceModel) from the type new CellEditorSupport(){} is never used locally
+----------
+213. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\preferences\NuggetsMinerPreferencePage.java (at line 266)
+	protected void setValueForElement(PreferenceModel element, String value)
+	               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The method setValueForElement(PreferenceModel, String) from the type new CellEditorSupport(){} is never used locally
+----------
+----------
+214. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\preferences\SolrPreferencePage.java (at line 5)
+	import org.eclipse.ant.internal.ui.preferences.URLFieldEditor;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Discouraged access: The type URLFieldEditor is not accessible due to restriction on classpath entry C:\Users\online\Desktop\eclipse-rcp-helios-SR2-win32-x86_64\eclipse\plugins\org.eclipse.ant.ui_3.5.0.v20100427.jar
+----------
+215. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\preferences\SolrPreferencePage.java (at line 24)
+	addField(new URLFieldEditor(NuggetsMinerPreferencesConstant.SOLR_URL, 
+      "Apache SOLR &service url:", getFieldEditorParent()));
+	         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Discouraged access: The constructor URLFieldEditor(String, String, Composite) is not accessible due to restriction on classpath entry C:\Users\online\Desktop\eclipse-rcp-helios-SR2-win32-x86_64\eclipse\plugins\org.eclipse.ant.ui_3.5.0.v20100427.jar
+----------
+216. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\preferences\SolrPreferencePage.java (at line 24)
+	addField(new URLFieldEditor(NuggetsMinerPreferencesConstant.SOLR_URL, 
+	             ^^^^^^^^^^^^^^
+Discouraged access: The type URLFieldEditor is not accessible due to restriction on classpath entry C:\Users\online\Desktop\eclipse-rcp-helios-SR2-win32-x86_64\eclipse\plugins\org.eclipse.ant.ui_3.5.0.v20100427.jar
+----------
+----------
+217. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\solr\AnswerNode.java (at line 3)
+	import java.util.Date;
+	       ^^^^^^^^^^^^^^
+The import java.util.Date is never used
+----------
+----------
+218. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\solr\DocumentCache.java (at line 14)
+	private final int CACHE_SIZE = 1000;
+	                  ^^^^^^^^^^
+The field DocumentCache.CACHE_SIZE is never read locally
+----------
+219. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\solr\DocumentCache.java (at line 33)
+	List<DocumentBase> docs = new ArrayList(this.lruMap.keySet());
+	                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The constructor ArrayList(Collection) belongs to the raw type ArrayList. References to generic type ArrayList<E> should be parameterized
+----------
+220. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\solr\DocumentCache.java (at line 33)
+	List<DocumentBase> docs = new ArrayList(this.lruMap.keySet());
+	                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<DocumentBase>
+----------
+221. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\solr\DocumentCache.java (at line 33)
+	List<DocumentBase> docs = new ArrayList(this.lruMap.keySet());
+	                              ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+----------
+222. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\solr\DocumentDeserializer.java (at line 21)
+	List<DocumentBase> docList = new ArrayList();
+	                             ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<DocumentBase>
+----------
+223. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\solr\DocumentDeserializer.java (at line 21)
+	List<DocumentBase> docList = new ArrayList();
+	                                 ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+----------
+224. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\solr\DocumentQueryExecuter.java (at line 31)
+	private final CommonsHttpSolrServer server;
+	                                    ^^^^^^
+The field DocumentQueryExecuter.server is never read locally
+----------
+----------
+225. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\solr\DocumentRetrieveJob.java (at line 10)
+	import org.apache.solr.client.solrj.SolrQuery.ORDER;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.apache.solr.client.solrj.SolrQuery.ORDER is never used
+----------
+226. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\solr\DocumentRetrieveJob.java (at line 12)
+	import org.apache.solr.client.solrj.SolrRequest.METHOD;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.apache.solr.client.solrj.SolrRequest.METHOD is never used
+----------
+227. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\solr\DocumentRetrieveJob.java (at line 40)
+	for (IQueryResultReadyHandler h : this.handlers) {
+	                              ^
+The local variable h is never read
+----------
+228. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\solr\DocumentRetrieveJob.java (at line 75)
+	HashMap<String, DocumentBase> docList = new HashMap();
+	                                        ^^^^^^^^^^^^^
+Type safety: The expression of type HashMap needs unchecked conversion to conform to HashMap<String,DocumentBase>
+----------
+229. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\solr\DocumentRetrieveJob.java (at line 75)
+	HashMap<String, DocumentBase> docList = new HashMap();
+	                                            ^^^^^^^
+HashMap is a raw type. References to generic type HashMap<K,V> should be parameterized
+----------
+230. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\solr\DocumentRetrieveJob.java (at line 76)
+	DocumentCache cache = DocumentCache.getInstance();
+	              ^^^^^
+The local variable cache is never read
+----------
+----------
+231. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\solr\IssueQueryExecuter.java (at line 31)
+	private final CommonsHttpSolrServer server;
+	                                    ^^^^^^
+The field IssueQueryExecuter.server is never read locally
+----------
+----------
+232. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\solr\QuestionNode.java (at line 3)
+	import java.util.Date;
+	       ^^^^^^^^^^^^^^
+The import java.util.Date is never used
+----------
+----------
+233. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\solr\SnippetQueryExecuter.java (at line 31)
+	private final CommonsHttpSolrServer server;
+	                                    ^^^^^^
+The field SnippetQueryExecuter.server is never read locally
+----------
+----------
+234. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\solr\SolrManager.java (at line 10)
+	import java.io.PrintStream;
+	       ^^^^^^^^^^^^^^^^^^^
+The import java.io.PrintStream is never used
+----------
+----------
+235. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\sqlite\DatabaseManager.java (at line 7)
+	import java.io.PrintStream;
+	       ^^^^^^^^^^^^^^^^^^^
+The import java.io.PrintStream is never used
+----------
+236. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\sqlite\DatabaseManager.java (at line 16)
+	import java.util.Properties;
+	       ^^^^^^^^^^^^^^^^^^^^
+The import java.util.Properties is never used
+----------
+237. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\sqlite\DatabaseManager.java (at line 53)
+	String userName = store.getString(NuggetsMinerPreferencesConstant.DB_USER);
+	       ^^^^^^^^
+The local variable userName is never read
+----------
+238. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\sqlite\DatabaseManager.java (at line 54)
+	String userPassword = store.getString(NuggetsMinerPreferencesConstant.DB_PASSWORD);
+	       ^^^^^^^^^^^^
+The local variable userPassword is never read
+----------
+239. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\sqlite\DatabaseManager.java (at line 55)
+	String sshPort = store.getString(NuggetsMinerPreferencesConstant.SSH_PORT);
+	       ^^^^^^^
+The local variable sshPort is never read
+----------
+240. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\sqlite\DatabaseManager.java (at line 177)
+	List<MrCrawleyDbEntry> entries = new ArrayList();
+	                                 ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<MrCrawleyDbEntry>
+----------
+241. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\sqlite\DatabaseManager.java (at line 177)
+	List<MrCrawleyDbEntry> entries = new ArrayList();
+	                                     ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+----------
+242. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\utils\CopyPaste.java (at line 88)
+	private void init() {
+	             ^^^^^^
+The method init() from the type CopyPaste is never used locally
+----------
+----------
+243. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\utils\HtmlToPlainText.java (at line 63)
+	int i, j, k, l ;  
+	             ^
+The local variable l is never read
+----------
+----------
+244. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\utils\ManipuladorDeTexto.java (at line 26)
+	private Set stopWords;  
+	        ^^^
+Set is a raw type. References to generic type Set<E> should be parameterized
+----------
+245. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\utils\ManipuladorDeTexto.java (at line 49)
+	List<String> words = new ArrayList();
+	                     ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<String>
+----------
+246. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\utils\ManipuladorDeTexto.java (at line 49)
+	List<String> words = new ArrayList();
+	                         ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+247. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\utils\ManipuladorDeTexto.java (at line 153)
+	String saida = "";
+	       ^^^^^
+The local variable saida is never read
+----------
+248. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\utils\ManipuladorDeTexto.java (at line 306)
+	String input = sentencas[w];
+	       ^^^^^
+The local variable input is never read
+----------
+249. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\utils\ManipuladorDeTexto.java (at line 308)
+	String tags[] = null;
+	       ^^^^
+The local variable tags is never read
+----------
+250. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\utils\ManipuladorDeTexto.java (at line 312)
+	for(int p=0; p< tokens.length; p++){
+	                ^^^^^^
+Null pointer access: The variable tokens can only be null at this location
+----------
+----------
+251. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\views\IssueView.java (at line 107)
+	GitHubHTMLRenderer renderer;
+	                   ^^^^^^^^
+The local variable renderer is never read
+----------
+----------
+252. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\views\SnippetTreeContentProvider.java (at line 9)
+	import br.com.inf.nuggets.miner.solr.IssueData;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import br.com.inf.nuggets.miner.solr.IssueData is never used
+----------
+----------
+253. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\views\SnippetView.java (at line 3)
+	import java.io.IOException;
+	       ^^^^^^^^^^^^^^^^^^^
+The import java.io.IOException is never used
+----------
+254. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\views\SnippetView.java (at line 4)
+	import java.net.URISyntaxException;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import java.net.URISyntaxException is never used
+----------
+255. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\views\SnippetView.java (at line 106)
+	SnippetHTMLRenderer renderer;
+	                    ^^^^^^^^
+The local variable renderer is never read
+----------
+----------
+256. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\views\SnippetsTreeView.java (at line 144)
+	String crowdBugStr = this.crowdBugText.getText();	
+	       ^^^^^^^^^^^
+The local variable crowdBugStr is never read
+----------
+----------
+257. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\visualization\DocumentBaseHTMLRenderer.java (at line 21)
+	private final List<String> scripts = new ArrayList();
+	                                     ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<String>
+----------
+258. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\visualization\DocumentBaseHTMLRenderer.java (at line 21)
+	private final List<String> scripts = new ArrayList();
+	                                         ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+259. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\visualization\DocumentBaseHTMLRenderer.java (at line 22)
+	private final List<String> styles = new ArrayList();
+	                                    ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<String>
+----------
+260. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\visualization\DocumentBaseHTMLRenderer.java (at line 22)
+	private final List<String> styles = new ArrayList();
+	                                        ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+----------
+261. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\visualization\GitHubHTMLRenderer.java (at line 44)
+	SimpleDateFormat formatter = new SimpleDateFormat("EEE, d MMM yyyy");
+	                 ^^^^^^^^^
+The local variable formatter is never read
+----------
+262. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\visualization\GitHubHTMLRenderer.java (at line 65)
+	private String processAnswers(AnswerNode answer)
+	               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The method processAnswers(AnswerNode) from the type GitHubHTMLRenderer is never used locally
+----------
+263. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\visualization\GitHubHTMLRenderer.java (at line 76)
+	SimpleDateFormat formatter = new SimpleDateFormat("EEE, d MMM yyyy");
+	                 ^^^^^^^^^
+The local variable formatter is never read
+----------
+264. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\visualization\GitHubHTMLRenderer.java (at line 140)
+	StringBuilder pageBuilder = new StringBuilder();
+	              ^^^^^^^^^^^
+The local variable pageBuilder is never read
+----------
+----------
+265. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\visualization\IssueDataHTMLRenderer.java (at line 16)
+	import br.com.inf.nuggets.miner.solr.DocumentBase;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import br.com.inf.nuggets.miner.solr.DocumentBase is never used
+----------
+266. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\visualization\IssueDataHTMLRenderer.java (at line 21)
+	private final List<String> scripts = new ArrayList();
+	                                     ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<String>
+----------
+267. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\visualization\IssueDataHTMLRenderer.java (at line 21)
+	private final List<String> scripts = new ArrayList();
+	                                         ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+268. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\visualization\IssueDataHTMLRenderer.java (at line 22)
+	private final List<String> styles = new ArrayList();
+	                                    ^^^^^^^^^^^^^^^
+Type safety: The expression of type ArrayList needs unchecked conversion to conform to List<String>
+----------
+269. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\visualization\IssueDataHTMLRenderer.java (at line 22)
+	private final List<String> styles = new ArrayList();
+	                                        ^^^^^^^^^
+ArrayList is a raw type. References to generic type ArrayList<E> should be parameterized
+----------
+----------
+270. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\visualization\SnippetHTMLRenderer.java (at line 11)
+	import java.util.StringTokenizer;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^
+The import java.util.StringTokenizer is never used
+----------
+271. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\visualization\SnippetHTMLRenderer.java (at line 13)
+	import org.apache.commons.lang3.StringEscapeUtils;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.apache.commons.lang3.StringEscapeUtils is never used
+----------
+----------
+272. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\visualization\StackExchangeHTMLRenderer.java (at line 12)
+	import java.util.HashMap;
+	       ^^^^^^^^^^^^^^^^^
+The import java.util.HashMap is never used
+----------
+273. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\visualization\StackExchangeHTMLRenderer.java (at line 15)
+	import java.util.Map;
+	       ^^^^^^^^^^^^^
+The import java.util.Map is never used
+----------
+274. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\visualization\StackExchangeHTMLRenderer.java (at line 61)
+	SimpleDateFormat formatter = new SimpleDateFormat("EEE, d MMM yyyy");
+	                 ^^^^^^^^^
+The local variable formatter is never read
+----------
+275. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\visualization\StackExchangeHTMLRenderer.java (at line 62)
+	String commentHideShow = "";
+	       ^^^^^^^^^^^^^^^
+The local variable commentHideShow is never read
+----------
+276. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\visualization\StackExchangeHTMLRenderer.java (at line 93)
+	SimpleDateFormat formatter = new SimpleDateFormat("EEE, d MMM yyyy");
+	                 ^^^^^^^^^
+The local variable formatter is never read
+----------
+277. WARNING in C:\tool-workspace\NuggetsMiner\src\br\com\inf\nuggets\miner\visualization\StackExchangeHTMLRenderer.java (at line 94)
+	String commentHideShow = "";
+	       ^^^^^^^^^^^^^^^
+The local variable commentHideShow is never read
+----------
+277 problems (277 warnings)

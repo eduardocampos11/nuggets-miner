@@ -1,0 +1,152 @@
+
+
+body{
+	background:#EEE;
+	font-family: "Segoe UI Light", Helvetica;
+}
+
+img{
+   display: block;
+   width: 50%;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+
+.mainDiv{
+	width: 90%;
+	margin:auto;
+	background: transparent;
+}
+
+.entryContainer{
+	margin-top: 50px;
+	background: white;	
+	-moz-box-shadow:    0px 0px 2px 2px #aaa;
+	-webkit-box-shadow: 0px 0px 2px 2px #aaa;
+	box-shadow:         0px 0px 2px 2px #aaa;	
+}
+
+.corpus{
+	font-size: 14px;
+	width: 100%;
+}
+
+.question{
+	background:rgb(227,130,33);
+	color:white;
+	text-align:center;
+	vertical-align:top;
+}
+
+.answer{
+	background:rgb(125,152,162);
+	color:white;
+	text-align:center;
+	vertical-align:top;
+}
+
+.acceptedAnswer{
+	background:rgb(147,200,162);
+	text-align:center;
+	color:white;
+	vertical-align:top;
+}
+
+
+.corpusSideElement{
+	font-size: 40px;
+	/* padding-top: 5px; */
+}
+
+.corpusSideAllign{;
+	background:rgb(0,69,126);
+	color:white;
+	width: 50px;
+}
+
+.scoreElement{
+	padding-bottom: 5px;
+	font-size: 12px;
+	text-align:center;
+	width: 50px;
+}
+
+.commentRow{
+	width: 100%;
+	float: left;
+}
+
+
+.commentText{
+	font-size: 12px; !important;
+	text-align: justify;
+	margin: 10px;
+}
+
+.comment{
+	background: #EEE;
+	border:1px solid transparent;
+	margin-bottom: 5px;	
+	width: 99%;
+}
+
+
+
+.title{
+	font-size:20px;
+	font-weight:bold;
+	margin:20px;
+	text-align:center;
+	/* padding-top: 20px; */
+}
+
+.author{
+	font-size:12px;
+	font-weight:bold;
+	font-style:italic;
+	float:left;
+	margin-right: 5px;
+}
+
+.date{
+	font-size:12px;
+	font-style:italic;
+}
+
+pre{
+	font-family: Consolas, Monaco, "Andale Mono", "Courier New";
+	
+	white-space: pre-wrap;
+	overflow:auto;	
+	margin: auto;
+	width:90%;
+}
+
+code{
+	
+}
+
+
+ol.linenums{
+	background:rgb(125,152,162);
+}
+
+a.codeDrag{
+	text-decoration: none;
+}
+
+
+/*prettyprint custom style*/
+
+li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9
+{
+    color: #EEE;
+    /* background:rgb(234,238,239); */
+    background:rgb(240,240,240);
+    
+    list-style-type: decimal;
+    
+}

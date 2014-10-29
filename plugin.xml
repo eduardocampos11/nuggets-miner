@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            name="Nuggets Miner Views"
+            id="br.com.inf.nuggets.miner">
+      </category>
+      <view
+            allowMultiple="false"
+            category="br.com.inf.nuggets.miner"
+            class="br.com.inf.nuggets.miner.views.DocumentTreeView"
+            icon="icons/icon.png"
+            id="br.com.inf.nuggets.miner.views.DocumentTreeView"
+            name="Nuggets Miner Navigator">
+      </view>
+      
+      <view
+            allowMultiple="false"
+            category="br.com.inf.nuggets.miner"
+            class="br.com.inf.nuggets.miner.views.SnippetsTreeView"
+            icon="icons/icon.png"
+            id="br.com.inf.nuggets.miner.views.SnippetsTreeView"
+            name="Snippets Navigator">
+      </view>
+      <view
+            allowMultiple="true"
+            category="br.com.inf.nuggets.miner"
+            class="br.com.inf.nuggets.miner.views.DocumentView"
+            icon="icons/icon.png"
+            id="br.com.inf.nuggets.miner.views.DocumentView"
+            name="Document's Content">
+      </view>
+      <view
+            allowMultiple="true"
+            category="br.com.inf.nuggets.miner"
+            class="br.com.inf.nuggets.miner.views.SnippetView"
+            icon="icons/icon.png"
+            id="br.com.inf.nuggets.miner.views.SnippetView"
+            name="Snippet's Content">
+      </view>
+      <view
+            allowMultiple="true"
+            category="br.com.inf.nuggets.miner"
+            class="br.com.inf.nuggets.miner.views.IssueView"
+            icon="icons/icon.png"
+            id="br.com.inf.nuggets.miner.views.IssueView"
+            name="Issue's Content">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="br.com.inf.nuggets.miner.preferences.NuggetsMinerPreferenceInitializer">
+      </initializer>
+   </extension>
+   
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            class="br.com.inf.nuggets.miner.preferences.NuggetsMinerPreferencePage"
+            id="br.com.inf.nuggets.miner.preferences.MainPreferencePage"
+            name="Nuggets Miner">
+      </page>
+      <page
+            category="br.com.inf.nuggets.miner.preferences.MainPreferencePage"
+            class="br.com.inf.nuggets.miner.preferences.SolrPreferencePage"
+            id="br.com.inf.nuggets.miner.preferences.SolrPreferencePage"
+            name="Solr Preferences">
+      </page>
+   </extension>
+   
+   <extension
+   	point="org.eclipse.ui.commands">
+   		<command
+            id="br.com.inf.nuggets.miner.menu.CompilationUnitEditorContextMenu"
+            name="AskNuggetsMiner">
+      	</command>
+      	<command
+            id="br.com.inf.nuggets.miner.menu.SearchViewShortcutHandler"
+            name="SearchShorcut">
+      	</command>
+   </extension>
+   
+    <extension
+       point="org.eclipse.ui.handlers">
+    	<handler
+            class="br.com.inf.nuggets.miner.menu.CompilationUnitEditorContextMenu"
+            commandId="br.com.inf.nuggets.miner.menu.CompilationUnitEditorContextMenu">
+      	</handler>
+      	<handler
+            class="br.com.inf.nuggets.miner.menu.SearchViewShortcutHandler"
+            commandId="br.com.inf.nuggets.miner.menu.SearchViewShortcutHandler">
+      	</handler>
+ 	</extension>
+	
+	<extension
+		point="org.eclipse.ui.menus">
+	
+		<menuContribution
+        	locationURI="popup:#CompilationUnitEditorContext?after=additions">
+       	<command
+        	commandId="br.com.inf.nuggets.miner.menu.CompilationUnitEditorContextMenu"
+            id="br.com.inf.nuggets.miner.menu.CompilationUnitEditorContextMenu"
+            label="Ask Nuggets Miner..."
+            icon="icons/icon.png"
+            style="push">
+      		<visibleWhen>
+            </visibleWhen>
+         </command>
+      </menuContribution>
+
+	</extension>
+	
+	<extension point="org.eclipse.ui.popupMenus">
+  		<objectContribution
+      		objectClass="org.eclipse.jdt.core.IJavaElement"
+      		id="org.eclipse.jdt.core.IMember">
+      		
+       	<action
+       		label="Ask Nuggets Miner..."
+      		class="br.com.inf.nuggets.miner.menu.JavaElementAction"
+      		id="action.nuggets.miner.JavaElement"
+      		icon="icons/icon.png">
+       	</action>
+      </objectContribution>
+	</extension>
+	
+	<extension point="org.eclipse.ui.bindings">
+		<key sequence="Ctrl+U"
+			commandId="br.com.inf.nuggets.miner.menu.SearchViewShortcutHandler"
+			schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+			contextId="org.eclipse.ui.contexts.window"
+		/>
+	</extension>
+
+
+</plugin>
